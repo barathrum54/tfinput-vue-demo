@@ -50,7 +50,7 @@
 
 <script lang="ts" setup>
 import TfInput from '@/components/TfInput.vue';
-import { computed, ref } from "vue"
+import { ref } from "vue"
 
 const STATES = ['default', 'active', 'filled', 'warning', 'danger', 'success', 'disabled'];
 const BORDER_RADIUS = ['Normal', 'Rounded', 'Full'];
@@ -73,17 +73,10 @@ const handleValueChange = (event: any) => {
   console.log(event)
 }
 
-
-
-
-
-
-
 </script>
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
